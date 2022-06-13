@@ -1,0 +1,13 @@
+.loading{
+  animation: spin 1s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0Deg);
+  } 
+
+  100%{
+    transform: rotateZ(360Deg);
+  }
+}
